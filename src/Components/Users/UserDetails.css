@@ -1,0 +1,30 @@
+/* main data styles */
+
+/* page numbers styles */
+
+.pagenumbers {
+  list-style: none;
+  display: flex;
+}
+.pagenumbers li {
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.719);
+  color: #fff;
+  border: 1px solid #fff;
+}
+.pagenumbers li.active {
+  background-color: #fff;
+  color: black;
+}
+.pagenumbers li button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+.pagenumbers li button:hover {
+  color: black;
+  background-color: #fff;
+}
